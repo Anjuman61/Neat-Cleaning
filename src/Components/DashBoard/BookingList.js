@@ -9,7 +9,7 @@ const BookingList = (props) => {
     const [isAdmin, setIsAdmin] = useState(false);
 
     useEffect(() => {
-        fetch('https://blooming-wave-41725.herokuapp.com/isAdmin', {
+        fetch('https://glacial-castle-93985.herokuapp.com/isAdmin', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -25,7 +25,7 @@ const BookingList = (props) => {
   const handleUpdate=(id)=>{
          const bookings = bookingData.booking.status;
          console.log(bookings)
-         fetch(`https://blooming-wave-41725.herokuapp.com/update/${id}`,{
+         fetch(`https://glacial-castle-93985.herokuapp.com/update/${id}`,{
            method: 'PATCH',
            headers: {'content-type': 'application/json'},
            body: JSON.stringify({bookings})

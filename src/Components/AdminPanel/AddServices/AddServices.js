@@ -32,7 +32,7 @@ const AddServices = () => {
           imageURL: imageURL
         };
     
-        const url = `https://blooming-wave-41725.herokuapp.com/addServices`;
+        const url = `https://glacial-castle-93985.herokuapp.com/addServices`;
     
         fetch(url, {
           method: 'POST',

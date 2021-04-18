@@ -13,7 +13,7 @@ const Booking = () => {
   const { register, handleSubmit} = useForm();
   const { id } = useParams()
   useEffect(() => {
-    fetch(`https://blooming-wave-41725.herokuapp.com/booking/${id}`)
+    fetch(`https://glacial-castle-93985.herokuapp.com/booking/${id}`)
       .then(res => res.json())
       .then(data => setServices(data))
   }, [id])
@@ -29,7 +29,7 @@ const Booking = () => {
         paymentId,
        bookingTime: new Date() }
 
-      fetch('https://blooming-wave-41725.herokuapp.com/addBooking', {
+      fetch('https://glacial-castle-93985.herokuapp.com/addBooking', {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'

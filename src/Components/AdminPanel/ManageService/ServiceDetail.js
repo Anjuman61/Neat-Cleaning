@@ -7,7 +7,7 @@ const ServiceDetail = (props) => {
     const{name, description,pricing, _id}=props.service;
     const history = useHistory();
     const deleteService = (id) => {
-        fetch(`https://blooming-wave-41725.herokuapp.com/service/${id}`, {
+        fetch(`https://glacial-castle-93985.herokuapp.com/service/${id}`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'

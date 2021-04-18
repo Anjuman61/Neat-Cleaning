@@ -31,7 +31,7 @@ const AddAdmin = () => {
           imageURL: imageURL
         };
     
-        const url = `https://blooming-wave-41725.herokuapp.com/addAdmin`;
+        const url = `https://glacial-castle-93985.herokuapp.com/addAdmin`;
     
         fetch(url, {
           method: 'POST',

@@ -9,7 +9,7 @@ const SideNavBar = () => {
     const [isAdmin,setIsAdmin]=useState(false);
 
     useEffect(()=>{
-       fetch('https://blooming-wave-41725.herokuapp.com/isAdmin',{
+       fetch('https://glacial-castle-93985.herokuapp.com/isAdmin',{
            method:'POST',
            headers: {
             'content-type': 'application/json'

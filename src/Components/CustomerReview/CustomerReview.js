@@ -19,7 +19,7 @@ const CustomerReview = () => {
          
         };
     
-        const url = `https://blooming-wave-41725.herokuapp.com/addReview`;
+        const url = `https://glacial-castle-93985.herokuapp.com/addReview`;
     
         fetch(url, {
           method: 'POST',

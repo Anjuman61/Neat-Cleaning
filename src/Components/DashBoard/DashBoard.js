@@ -11,7 +11,7 @@ const DashBoard = () => {
     
 
     useEffect(() => {
-        fetch('https://blooming-wave-41725.herokuapp.com/bookings',{
+        fetch('https://glacial-castle-93985.herokuapp.com/bookings',{
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({ email: user.email })

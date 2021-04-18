@@ -4,7 +4,7 @@ import AdminCard from '../AdminCard/AdminCard';
 const AdminSection = () => {
     const [admins, setAdmins] = useState([])
     useEffect( () => {
-        fetch('https://blooming-wave-41725.herokuapp.com/admins')
+        fetch('https://glacial-castle-93985.herokuapp.com/admins')
         .then(res => res.json())
         .then(data => setAdmins(data))
     }, [])
