@@ -1,0 +1,43 @@
+input{
+ 
+    width: 300px;
+    height: 50px;
+    padding: 7px;
+    border: 1px solid rgb(228, 222, 198);
+    border-radius: 4px;
+  }
+  .addServiceForm{
+      border: 1px solid gray;
+      border-radius: 5px;
+      background-color: #39666db4;
+      padding: 20px;
+      margin:50px 50px 0px 250px;
+      align-content: center;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+     grid-row-gap: 10px;
+    
+  }
+  
+  .side-navBar {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(138, 187, 202, 0.685);
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+    
+    .side-navBar a {
+      padding: 6px 6px 6px 32px;
+      text-decoration: none;
+     
+      color: #141414;
+      display: block;
+    }
+  
+    .side-navBar a:hover {
+      color: #d18c8c;
+    }

@@ -1,0 +1,10 @@
+.reviewCard{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(148, 204, 214, 0.671);
+}
+.reviewCard img{
+    border-radius: 100px;
+}

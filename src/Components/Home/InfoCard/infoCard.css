@@ -1,0 +1,6 @@
+.info-icon:hover{
+    transform: scale(1.2);
+}
+.info-icon{
+    transition: transform 1s;
+}

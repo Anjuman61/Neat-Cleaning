@@ -1,0 +1,9 @@
+.pricing-card{
+    background-color: rgba(22, 72, 92, 0.63);
+}
+.pricing-card:hover{
+    background-color: rgba(103, 154, 201, 0.753); 
+    transform: scale(1.1);
+    color:rgb(32, 131, 98)
+    
+}

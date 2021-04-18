@@ -1,0 +1,38 @@
+
+.service-img{
+    width: 650px;
+    transition: transform 1s; 
+}
+.service-img:hover{
+  transform: scale(1.1);
+
+}
+.service-detail h4{
+  color: rgb(26, 55, 88);
+  text-decoration-line: underline;
+}
+.service-container{
+  background-color: rgba(247, 245, 240, 0.637);
+}
+@media (max-width: 1200px) {
+    .service-img{
+        width: 500px;
+       
+    }
+  }
+
+  @media (max-width: 668px) {
+    .service-img{
+
+        width: 250px;
+       
+    }
+  }
+
+  @media (max-width: 480px) {
+    .service-img{
+
+        width: 200px;
+       
+    }
+  }

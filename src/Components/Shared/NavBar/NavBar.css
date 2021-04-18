@@ -1,0 +1,6 @@
+.nav-bar{
+    background-color: rgba(29, 85, 153, 0.637);
+}
+.nav-bar a:hover{
+    transform: scale(1.2);
+}
