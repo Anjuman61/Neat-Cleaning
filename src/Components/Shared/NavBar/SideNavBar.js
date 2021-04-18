@@ -26,7 +26,7 @@ const SideNavBar = () => {
         <Link to="/dashBoard"><FontAwesomeIcon icon={faThLarge} /> DashBoard</Link>
         {isAdmin?
           (<div>
-        <Link to="/home"><FontAwesomeIcon icon={faPlusSquare} /> Add Services</Link>
+        <Link to="/addService"><FontAwesomeIcon icon={faPlusSquare} /> Add Services</Link>
         <Link to="addAdmin"><FontAwesomeIcon icon={faUserPlus} /> Make Admin</Link>
         <Link to="/manageService"><FontAwesomeIcon icon={faTasks} /> Manage Services</Link>
         </div>) :
